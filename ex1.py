@@ -1,0 +1,20 @@
+#print statement and Intro
+
+print ("Hello World!")
+print ("Hello Again")
+print ("I Like typing this.")
+print ("This is fun.")
+print ("Yay! Printing.")
+print ('Yay! Printing.')
+print ("I'd much rather you 'not' .")
+print ("I'd much rather you 'not' .")
+print ('I "said" do not touch this.')
+# ' ' inside " " are allowed !
+print ("'I rather say' do not touch this !")
+# print ("Do u print this line")
+print ('I love u Sonia')
+print ('<3')
+print ('"Will you marry" me ?')
+print ('I love you so much !')
+print ('I want to"" rest of my life with you')
+# print (I love u so much)
