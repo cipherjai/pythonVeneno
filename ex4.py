@@ -9,7 +9,7 @@ print (carsNotDriven)
 SpaceInASportsCar = 42
 print (SpaceInASportsCar)
 # Therefore we can use Capital letters to name off a variavble
-# but we sould not
+# but we should not
 
 print (SpaceInASportsCar*drivers)
 print (spaceInCar*drivers)
@@ -24,4 +24,10 @@ print (cars+'100')
 #merc100
 
 print (cars+"100")
-print (cars-"100")
+#print (cars-"100")
+
+
+
+# initialization of Variables
+newVariable
+print (newVariable) #Not defined error
