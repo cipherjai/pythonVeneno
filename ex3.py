@@ -37,3 +37,9 @@ print ("what is #3+2 ")
 #(abs)
 print (abs(3+2))
 3+2
+
+print("lets do some maths in there : ")
+print(3+2>7+9)
+print("is it true or false ? #")
+print("is it true or false ? #3+2")
+print("true or False #3+2")

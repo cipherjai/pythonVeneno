@@ -29,5 +29,5 @@ print (cars+"100")
 
 
 # initialization of Variables
-newVariable
+newVariable =  cars+"100"*10
 print (newVariable) #Not defined error
