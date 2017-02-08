@@ -1,0 +1,26 @@
+#variables revision
+cars = 100
+spaceInCars = 5.5
+driver = 2
+carsNotDriven = cars - driver
+print (carsNotDriven)
+print(cars/driver)
+print(abs(cars/driver))
+print(cars/spaceInCars)
+carsNotDriven+2
+print(carsNotDriven)
+print(carsNotDriven+2)
+print(cars*driver)
+print(cars*spaceInCars)
+cars = "Lambhorgini"
+print(cars+'20')
+
+notDefinedErrorVariable = cars+"balloo"*20
+print(notDefinedErrorVariable)
+
+
+
+
+
+
+
