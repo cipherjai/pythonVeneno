@@ -20,7 +20,7 @@ print('I want to"" spend rest of my life with you')
 # print (I love u so much)
 
 
-print ()
+print()
 # revision
 
 print("Revision Starts here !")
