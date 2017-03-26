@@ -144,6 +144,3 @@ target.close()
 # 't'	Open in text mode. (default)
 # 'b'	Open in binary mode.
 # '+'	Open a file for updating (reading and writing)
-
-
-
