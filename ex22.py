@@ -104,3 +104,7 @@ print("How Old are You ?"),
 # adding , after the print sentence is good enough
 age = int(input())  # type casting to integer , to string .. we use str()
 print("Your age is %d" % (age+1))
+# %r is for debugging
+color = input("What is your Favourite colour baby ?"),
+shade = input("What eye-shades do you use ? "),
+cars = input("Which car do you have ? "),
