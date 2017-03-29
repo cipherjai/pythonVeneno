@@ -12,11 +12,11 @@ print('I "said" do not touch this.')
 # ' ' inside " " are allowed !
 print("'I rather say' do not touch this !")
 # print ("Do u print this line")
-print('I love u Sonia')
+print('I love u Bugs')
 print('<3')
-print('"Will you marry" me ?')
+print('"Will you Punch me ?')
 print('I love you so much !')
-print('I want to"" spend rest of my life with you')
+print('I want to"" spend rest of my life punching with you')
 # print (I love u so much)
 
 
