@@ -31,7 +31,15 @@ print('does this happens to a program anymore ? " ')
 print("printing \" inside within a double quote has become so easy \" right? \"")
 print("So printing ' ' inside \" \" is all right !")
 
+#printing out a raw string like : here :
 
+print('c:\sers\bump\goal\newFolder')
+# will cause a new line for new folder
+"""So in order to check that,
+ we need to place a 'r' before the quotes"""
+
+print(r'c:\sers\bump\goal\newFolder')
+""""Pretty cool right ? Yeah ! I Know!"""
 
 
 
