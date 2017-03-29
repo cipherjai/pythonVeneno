@@ -32,4 +32,11 @@ print (myTeeth + myHair)
 lol = "LOL"*10
 print (lol)
 
+# # More Strings ***
+
+# concatenating string
+meraNaam = 'Jai'
+meraNaam_last =  'Gupta'
+print(meraNaam+meraNaam_last)
+print(meraNaam, meraNaam_last)
 
