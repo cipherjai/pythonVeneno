@@ -28,3 +28,11 @@ for i in range(0, 6):
 
 for i in elements:
     print("Element was: %d" % i)
+
+for eye in eyes:
+    print("I love %s eyes." % eye)
+
+for hair in hairs:
+    print("I love girls with %s hairs!" % hair)
+
+
