@@ -16,3 +16,18 @@ def apple():
 tangerine = "Living reflection of a dream"
 
 # classes
+import ex40
+
+
+class MyStuff(object):
+
+    def __init__(self):
+        self.tangerine = None
+        ex40.tangerine = "And now a thousand years between!"
+
+    def apple(self):
+        print("I am classy apples!")
+
+things = MyStuff()
+things.apple()
+print(things.tangerine)
