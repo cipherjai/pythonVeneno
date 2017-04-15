@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6fb6f548-10dd-4453-b623-ffce22be66aa" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ex40_class.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ex40.py" afterPath="$PROJECT_DIR$/ex40.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ex40assist_2.py" afterPath="$PROJECT_DIR$/ex40assist_2.py" />
     </list>
     <ignored path="pythonVeneno.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -24,6 +23,7 @@
     <SUITE FILE_PATH="coverage/pythonVeneno$ex15.coverage" NAME="ex15 Coverage Results" MODIFIED="1486665089744" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/pythonVeneno$imageclassifier.coverage" NAME="imageclassifier Coverage Results" MODIFIED="1490818581580" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/pythonVeneno$ex5.coverage" NAME="ex5 Coverage Results" MODIFIED="1490820942579" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/pythonVeneno$ex40_class.coverage" NAME="ex40_class Coverage Results" MODIFIED="1492284998262" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/pythonVeneno$ex21.coverage" NAME="ex21 Coverage Results" MODIFIED="1489516078357" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/pythonVeneno$ex21B.coverage" NAME="ex21B Coverage Results" MODIFIED="1490554370329" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/pythonVeneno$ex35.coverage" NAME="ex35 Coverage Results" MODIFIED="1491937723584" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -87,11 +87,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ex40.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ex40.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ex40.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="475">
+            <state relative-caret-position="274">
               <caret line="32" column="23" selection-start-line="32" selection-start-column="23" selection-end-line="32" selection-end-column="23" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ex40_class.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ex40_class.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="492">
+              <caret line="61" column="0" selection-start-line="61" selection-start-column="0" selection-end-line="61" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -163,6 +173,7 @@
         <option value="$PROJECT_DIR$/ex40_assist.py" />
         <option value="$PROJECT_DIR$/ex40assist_2.py" />
         <option value="$PROJECT_DIR$/ex40.py" />
+        <option value="$PROJECT_DIR$/ex40_class.py" />
       </list>
     </option>
   </component>
@@ -211,16 +222,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pythonVeneno" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pythonVeneno" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
@@ -236,25 +237,7 @@
   <component name="PyCoverageOptionsProvider">
     <option name="myUseBundledCoveragePy" value="true" />
   </component>
-  <component name="RunManager" selected="Python.ex40">
-    <configuration default="false" name="ex38" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="pythonVeneno" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ex38.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Python.ex40_class">
     <configuration default="false" name="ex39" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -323,6 +306,24 @@
       <module name="pythonVeneno" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ex40.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="ex40_class" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="pythonVeneno" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ex40_class.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -536,19 +537,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.ex38" />
-      <item index="1" class="java.lang.String" itemvalue="Python.ex39" />
-      <item index="2" class="java.lang.String" itemvalue="Python.ex40_assist" />
-      <item index="3" class="java.lang.String" itemvalue="Python.ex40assist_2" />
-      <item index="4" class="java.lang.String" itemvalue="Python.ex40" />
+      <item index="0" class="java.lang.String" itemvalue="Python.ex39" />
+      <item index="1" class="java.lang.String" itemvalue="Python.ex40_assist" />
+      <item index="2" class="java.lang.String" itemvalue="Python.ex40assist_2" />
+      <item index="3" class="java.lang.String" itemvalue="Python.ex40" />
+      <item index="4" class="java.lang.String" itemvalue="Python.ex40_class" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.ex40" />
-        <item index="1" class="java.lang.String" itemvalue="Python.ex40assist_2" />
-        <item index="2" class="java.lang.String" itemvalue="Python.ex40_assist" />
-        <item index="3" class="java.lang.String" itemvalue="Python.ex39" />
-        <item index="4" class="java.lang.String" itemvalue="Python.ex38" />
+        <item index="0" class="java.lang.String" itemvalue="Python.ex40_class" />
+        <item index="1" class="java.lang.String" itemvalue="Python.ex40" />
+        <item index="2" class="java.lang.String" itemvalue="Python.ex40assist_2" />
+        <item index="3" class="java.lang.String" itemvalue="Python.ex40_assist" />
+        <item index="4" class="java.lang.String" itemvalue="Python.ex39" />
       </list>
     </recent_temporary>
   </component>
@@ -783,7 +784,14 @@
       <option name="project" value="LOCAL" />
       <updated>1492283161921</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="classes figured">
+      <created>1492284266966</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1492284266966</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="TodoView">
@@ -851,7 +859,8 @@
     <MESSAGE value="playing with lists" />
     <MESSAGE value="dictionaries&#10;" />
     <MESSAGE value="dealing with classes" />
-    <option name="LAST_COMMIT_MESSAGE" value="dealing with classes" />
+    <MESSAGE value="classes figured" />
+    <option name="LAST_COMMIT_MESSAGE" value="classes figured" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -862,7 +871,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Web Complete/HTML/ex1.html" />
     <entry file="file://$PROJECT_DIR$/tensor.py" />
     <entry file="file://$PROJECT_DIR$/ex14.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -1175,14 +1183,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ex40assist_2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ex39.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1088">
@@ -1193,8 +1193,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ex40.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
+        <state relative-caret-position="274">
           <caret line="32" column="23" selection-start-line="32" selection-start-column="23" selection-end-line="32" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ex40assist_2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ex40_class.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="492">
+          <caret line="61" column="0" selection-start-line="61" selection-start-column="0" selection-end-line="61" selection-end-column="0" />
           <folding />
         </state>
       </provider>
