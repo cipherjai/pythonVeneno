@@ -12,4 +12,4 @@ print(quote)
 firstName = "Jai"
 print(firstName + "Gupta")
 print(firstName, "Gupta")
-print((firstName+' ') * 5)
+print((firstName + ' ') * 5)
