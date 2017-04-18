@@ -5,7 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6fb6f548-10dd-4453-b623-ffce22be66aa" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/theNewBoston/list_5.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="pythonVeneno.iws" />
@@ -62,7 +61,7 @@
     <SUITE FILE_PATH="coverage/pythonVeneno$ex8.coverage" NAME="ex8 Coverage Results" MODIFIED="1486559424793" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="CreatePatchCommitExecutor">
-    <option name="PATCH_PATH" value="" />
+    <option name="PATCH_PATH" value="D:\pythonVeneno" />
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FavoritesManager">
@@ -819,7 +818,14 @@
       <option name="project" value="LOCAL" />
       <updated>1492547661945</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="# 4 kist and slicing up with the lists &#10;">
+      <created>1492548899512</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1492548899512</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="TodoView">
@@ -891,7 +897,8 @@
     <MESSAGE value="class hips dont lie in :P" />
     <MESSAGE value="basis for clases and strings , digged deeper into classes and further" />
     <MESSAGE value="# 3 slicing up the strings" />
-    <option name="LAST_COMMIT_MESSAGE" value="# 3 slicing up the strings" />
+    <MESSAGE value="# 4 kist and slicing up with the lists &#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="# 4 kist and slicing up with the lists &#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
