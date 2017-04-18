@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6fb6f548-10dd-4453-b623-ffce22be66aa" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/theNewBoston/slicing_strings_4.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/theNewBoston/list_5.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/theNewBoston/strings_3.py" afterPath="$PROJECT_DIR$/theNewBoston/strings_3.py" />
     </list>
     <ignored path="pythonVeneno.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -26,6 +25,7 @@
     <SUITE FILE_PATH="coverage/pythonVeneno$imageclassifier.coverage" NAME="imageclassifier Coverage Results" MODIFIED="1490818581580" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/pythonVeneno$ex5.coverage" NAME="ex5 Coverage Results" MODIFIED="1490820942579" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/pythonVeneno$ex40_class.coverage" NAME="ex40_class Coverage Results" MODIFIED="1492284998262" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/pythonVeneno$list_5.coverage" NAME="list_5 Coverage Results" MODIFIED="1492548857176" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/theNewBoston" />
     <SUITE FILE_PATH="coverage/pythonVeneno$ex21.coverage" NAME="ex21 Coverage Results" MODIFIED="1489516078357" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/pythonVeneno$ex21B.coverage" NAME="ex21B Coverage Results" MODIFIED="1490554370329" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/pythonVeneno$ex35.coverage" NAME="ex35 Coverage Results" MODIFIED="1491937723584" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -70,11 +70,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="slicing_strings_4.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="slicing_strings_4.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/theNewBoston/slicing_strings_4.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="323">
               <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="list_5.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/theNewBoston/list_5.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="595">
+              <caret line="35" column="11" selection-start-line="35" selection-start-column="11" selection-end-line="35" selection-end-column="11" />
               <folding />
             </state>
           </provider>
@@ -96,7 +106,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/ex9.py" />
         <option value="$PROJECT_DIR$/ex11.py" />
         <option value="$PROJECT_DIR$/ex12.py" />
         <option value="$PROJECT_DIR$/ex12practice.py" />
@@ -147,6 +156,7 @@
         <option value="$PROJECT_DIR$/ex40_class.py" />
         <option value="$PROJECT_DIR$/theNewBoston/strings_3.py" />
         <option value="$PROJECT_DIR$/theNewBoston/slicing_strings_4.py" />
+        <option value="$PROJECT_DIR$/theNewBoston/list_5.py" />
       </list>
     </option>
   </component>
@@ -234,25 +244,7 @@
   <component name="PyCoverageOptionsProvider">
     <option name="myUseBundledCoveragePy" value="true" />
   </component>
-  <component name="RunManager" selected="Python.slicing_strings_4">
-    <configuration default="false" name="ex40assist_2" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="pythonVeneno" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ex40assist_2.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Python.list_5">
     <configuration default="false" name="ex40" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -321,6 +313,24 @@
       <module name="pythonVeneno" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/theNewBoston/slicing_strings_4.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="list_5" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/theNewBoston" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="pythonVeneno" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/theNewBoston/list_5.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -534,19 +544,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.ex40assist_2" />
-      <item index="1" class="java.lang.String" itemvalue="Python.ex40" />
-      <item index="2" class="java.lang.String" itemvalue="Python.ex40_class" />
-      <item index="3" class="java.lang.String" itemvalue="Python.strings_3" />
-      <item index="4" class="java.lang.String" itemvalue="Python.slicing_strings_4" />
+      <item index="0" class="java.lang.String" itemvalue="Python.ex40" />
+      <item index="1" class="java.lang.String" itemvalue="Python.ex40_class" />
+      <item index="2" class="java.lang.String" itemvalue="Python.strings_3" />
+      <item index="3" class="java.lang.String" itemvalue="Python.slicing_strings_4" />
+      <item index="4" class="java.lang.String" itemvalue="Python.list_5" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.slicing_strings_4" />
-        <item index="1" class="java.lang.String" itemvalue="Python.strings_3" />
-        <item index="2" class="java.lang.String" itemvalue="Python.ex40_class" />
-        <item index="3" class="java.lang.String" itemvalue="Python.ex40" />
-        <item index="4" class="java.lang.String" itemvalue="Python.ex40assist_2" />
+        <item index="0" class="java.lang.String" itemvalue="Python.list_5" />
+        <item index="1" class="java.lang.String" itemvalue="Python.slicing_strings_4" />
+        <item index="2" class="java.lang.String" itemvalue="Python.strings_3" />
+        <item index="3" class="java.lang.String" itemvalue="Python.ex40_class" />
+        <item index="4" class="java.lang.String" itemvalue="Python.ex40" />
       </list>
     </recent_temporary>
   </component>
@@ -802,7 +812,14 @@
       <option name="project" value="LOCAL" />
       <updated>1492293042324</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="# 3 slicing up the strings">
+      <created>1492547661945</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1492547661945</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="TodoView">
@@ -873,7 +890,8 @@
     <MESSAGE value="classes figured" />
     <MESSAGE value="class hips dont lie in :P" />
     <MESSAGE value="basis for clases and strings , digged deeper into classes and further" />
-    <option name="LAST_COMMIT_MESSAGE" value="basis for clases and strings , digged deeper into classes and further" />
+    <MESSAGE value="# 3 slicing up the strings" />
+    <option name="LAST_COMMIT_MESSAGE" value="# 3 slicing up the strings" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -884,13 +902,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/bummer.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ex15.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
@@ -1227,6 +1238,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
           <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/theNewBoston/list_5.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="595">
+          <caret line="35" column="11" selection-start-line="35" selection-start-column="11" selection-end-line="35" selection-end-column="11" />
           <folding />
         </state>
       </provider>
