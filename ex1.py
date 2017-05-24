@@ -1,4 +1,4 @@
-#print statement and Intro
+# print statement and Intro
 
 print("Hello World!")
 print("Hello Again")
@@ -31,9 +31,9 @@ print('does this happens to a program anymore ? " ')
 print("printing \" inside within a double quote has become so easy \" right? \"")
 print("So printing ' ' inside \" \" is all right !")
 
-#printing out a raw string like : here :
+# printing out a raw string like : here :
 
-print('c:\sers\bump\goal\newFolder')
+print('c:\sers\bbump\goal\nnewFolder')
 # will cause a new line for new folder
 """So in order to check that,
  we need to place a 'r' before the quotes"""

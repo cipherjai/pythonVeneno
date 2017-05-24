@@ -9,13 +9,14 @@
 >= greater than equal '''
 print("i will now count my chickens: ")
 
-print("Hens ", 25+30/6)
+print("Hens ", 25 + 30 / 6)
 # this rerurns the decimal equivalent
 
+# modulus
 print(" Now I will count the eggs:")
-print(3+2+1-5+4%2-1/4+6)
+print(3+2+1-5 + 4 % 2 -1/4+6)
 
-print("3+2<5-7")
+print("3+2 < 5-7")
 
 #TEsting with the Numbers
 #Lets see how these are executed and in which order !
@@ -33,12 +34,13 @@ print ("what is #3+2 ")
 
 #You know them
 #(abs)
-print (abs(3+2))
-3+2
+print(abs(3 - 23))
 
 print("lets do some maths in there : ")
-print(3+2>7+9)
+print(3 + 2> 7 + 9)
 print("is it true or false ? #")
 print("is it true or false ? #3+2")
 print("true or False #3+2")
+
+
 
