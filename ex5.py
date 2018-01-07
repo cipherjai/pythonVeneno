@@ -21,9 +21,6 @@ print("Bhai ka naam hai : %s %s aur bhai ki age hai : %d" %(first_name, last_nam
 new_name = 'anu'
 print('Mere ko %d print karna hai %d times')
 
-
-
-
 # %s > string
 # %d > integer
 # %f > float
