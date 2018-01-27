@@ -20,5 +20,4 @@
 #     for i in ["/","-","|","\\","|"]:
 #         print ("%s\r" % i,)
 
-print(''' So what's the fuck was that ? "Huh?"
-Han! Tell ME /n TMKC\\MCBC \' ''')
+print(''' Get calm and quiet , cool down ' ''')
