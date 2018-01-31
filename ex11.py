@@ -15,6 +15,3 @@ print(""" So your favorite color is  %s and your favorite shade is %s"""%(color,
 
 cars = int(input("How many cars do u have?")),
 print("That means tum paisewale ho ! Great ! You have %s cars !"%(cars))
-
-
-
