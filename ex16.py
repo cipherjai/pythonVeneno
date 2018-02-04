@@ -37,3 +37,5 @@ target.close()
 # 'b'	Open in binary mode.
 # '+'	Open a file for updating (reading and writing)
 
+# instead of closing and opening and assigning the file  and target variable so many times , we could have
+# used + mode, which allows multiple editing
