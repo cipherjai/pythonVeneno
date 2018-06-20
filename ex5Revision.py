@@ -44,6 +44,9 @@ print(mera_naam[6])
 print(mera_naam[-1])
 # therefore it prints the last character
 
+# If you give the beginning, it will exclude the position or
+# if you don't give the bginning , it will include the starting Position
+
 # ranging with the characters
 print(mera_naam[1:7])
 
