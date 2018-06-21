@@ -2,6 +2,7 @@ from sys import argv
 name = input("The Name : ",)
 age = input("Age : ",)
 gender = input("Gender : ",)
+script = "ex12practice.py"
 
 script, name, age, gender = argv
 

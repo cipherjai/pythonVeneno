@@ -15,3 +15,7 @@ print(""" So your favorite color is  %s and your favorite shade is %s"""%(color,
 
 cars = int(input("How many cars do u have?")),
 print("That means tum paisewale ho ! Great ! You have %s cars !"%(cars))
+
+chinu = input("Tell me your pref ")
+print("It's awesome !! ", chinu),
+print("Killer Whale")
