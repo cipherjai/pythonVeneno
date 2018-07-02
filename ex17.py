@@ -20,4 +20,3 @@ print("Alright, all done.")
 
 outFile.close()
 inFile.close()
-
