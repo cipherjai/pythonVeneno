@@ -14,4 +14,3 @@ def print_a_Line(lineCount, f):
 currentFile = open(inputFile)
 
 print("First let's print the whole file: \n")
-
