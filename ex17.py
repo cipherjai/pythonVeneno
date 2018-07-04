@@ -5,7 +5,11 @@ script, fromFile, toFile = argv
 print("Copying from %s to %s"%(fromFile, toFile))
 
 inFile = open(fromFile)
-inData = fromFile.read()
+inData = inFile.read()
+
+# what is the type of the output of read
+
+print(type(inData))
 
 print("The input file is %d bytes long!" %(len(inData)))
 
