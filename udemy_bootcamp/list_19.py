@@ -39,5 +39,5 @@ print(matrix[0][2])
 print(matrix[1][1])
 print(matrix[2][0])
 
-first_col = [row[2] for row in matrix]
+first_col = [row[0] for row in matrix]
 print(first_col)
