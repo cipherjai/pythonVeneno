@@ -3,4 +3,6 @@ print(f.read())
 f.seek(0)
 print(f.readlines())
 print(type(f.readlines()))
-print(%%pwd)
+
+for line in open('merelysimpledoc.txt'):
+    print line
