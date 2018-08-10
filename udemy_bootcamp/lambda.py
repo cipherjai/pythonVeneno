@@ -34,3 +34,16 @@ print(lamb_even(7))
 
 lamb_first =  lambda s : s[0] if len(s) != 0 else "Nothing is in there"
 print(lamb_first("Something"))
+print(lamb_first(""))
+
+rev = lambda s: s[ : :-1]
+print(rev("string"))
+
+# taking multiple arguements
+
+adder = lambda x,y : x+y
+print(adder (2,3))
+
+#   map()
+#   filter()
+#   reduce()
