@@ -12,5 +12,5 @@ print(complex(pow(-1,0.5)))
 
 
 # Generators
-for num in xrange(1,1):
+for num in range(1,1):
     print (num)
