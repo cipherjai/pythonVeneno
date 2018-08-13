@@ -18,7 +18,7 @@ print(x)
 l = [1,2,3,4,5,6,7,8,1,3,5,6,8,3,5,6,4,3,5,5,5,3,22,3,45,56,45,56,10,10]
 print(l)
 print(set(l))
-
+print("is a list ", list(set(l)))
 print(sorted(set(l)))
 
 #booleans
