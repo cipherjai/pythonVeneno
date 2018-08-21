@@ -39,9 +39,13 @@ for num in lis:
 print(result)
 
 # Pangram
-# def ispangram(str1, alphabet = string.ascii_lowercase):
-#     alphaset = set(alphabet)
-#     return alphaset <= set(str1.lower())
-#
-# print(ispangram("The quick brown fox jumps over the lazy dog"))
-# print(string.ascii_lowercase)
+def ispangram(str1, alphabet = string.ascii_lowercase):
+    alphaset = set(alphabet)
+    if(len(str1) == len(alphaset))
+        return True
+    else
+        return False
+    return alphaset <= set(str1.lower())
+
+print(ispangram("The quick brown fox jumps over the lazy dog"))
+print(string.ascii_lowercase)
