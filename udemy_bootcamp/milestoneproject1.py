@@ -77,7 +77,6 @@ def play_board():
             play_again(choice)
 
 
-
 def play_again(choice):
     if(choice == 'Y' or choice == 'y'):
         play_board()
