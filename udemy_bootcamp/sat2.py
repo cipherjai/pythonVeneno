@@ -41,11 +41,13 @@ print(result)
 # Pangram
 def ispangram(str1, alphabet = string.ascii_lowercase):
     alphaset = set(alphabet)
-    if(len(str1) == len(alphaset))
+    if(len(str1) == len(alphaset)):
         return True
-    else
+    else:
         return False
     return alphaset <= set(str1.lower())
 
 print(ispangram("The quick brown fox jumps over the lazy dog"))
 print(string.ascii_lowercase)
+
+print(ord('a'))
