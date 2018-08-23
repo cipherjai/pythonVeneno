@@ -12,5 +12,5 @@ tups = ('one', 2, "Three", 2, "one", 4)
 tups.count('one')
 
 # tuple object does not support reassignmnent of item
-tups[0] = 'Two'
-print(tups)
+# tups[0] = 'Two'
+# print(tups)
