@@ -14,3 +14,11 @@ tups.count('one')
 # tuple object does not support reassignmnent of item
 # tups[0] = 'Two'
 # print(tups)
+
+def add(x, y):
+    return x + y
+
+# print add(3, 4)
+# z = (5, 4)
+# print add(*z) # this line will cause the values to be unpacked
+# print add(z) # this line causes an error
