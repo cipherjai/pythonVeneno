@@ -49,3 +49,4 @@ print(adder (2,3))
 #   reduce()
 
 # starting with Map ()
+# with sinchita
