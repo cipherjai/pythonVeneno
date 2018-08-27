@@ -44,6 +44,8 @@ print(rev("string"))
 adder = lambda x,y : x+y
 print(adder (2,3))
 
-#   map()
+#   Map()
 #   filter()
 #   reduce()
+
+# starting with Map ()
