@@ -21,3 +21,5 @@ print((d['k1']['nestkey']['subnestkey']).upper())
 print(d.keys())
 print(d.values())
 print(d.items())
+
+# Iterating over dictionaries will only give you keys
