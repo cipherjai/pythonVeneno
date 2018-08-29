@@ -11,10 +11,8 @@ print(numbers)
 print(type(reduce(combine,numbers)))
 print(reduce(combine,numbers))
 
-
 # we define a list of integers
 numbers = [1, 4, 6, 2, 9, 10]
-
 
 print(numbers)
 print(reduce(lambda x,y: "(" + str(x) + ", " + str(y) + ")",numbers))
