@@ -86,3 +86,14 @@ def play_again(choice):
 play_board()
 
 # TODO:add tuple for immutable string
+
+
+# for removing whitesspace from a string #leading #trailing
+
+# will remove all the leading and trailing whitespace characters such as \n, \r, \t, \f, space.
+#
+# For more flexibility use the following
+#
+# Removes only leading whitespace chars: myString.lstrip()
+# Removes only trailing whitespace chars: myString.rstrip()
+# Removes specific whitespace chars: myString.strip('\n') or myString.lstrip('\n\r') or myString.rstrip('\n\t') and so on.
