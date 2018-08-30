@@ -21,7 +21,7 @@ l = ['a', 'b', 'c']
 print({key:value  for value,key in enumerate(l)})
 
 
-print(map(int, input().split(" ")))
-
-# count matches the index
-print(len(num for count,num in enumerate(l) if num == count))
+# print(map(int, input().split(" ")))
+#
+# # count matches the index
+# print(len(num for count,num in enumerate(l) if num == count))
