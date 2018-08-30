@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6fb6f548-10dd-4453-b623-ffce22be66aa" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/udemy_bootcamp/allandany.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/udemy_bootcamp/enumerater.py" beforeDir="false" afterPath="$PROJECT_DIR$/udemy_bootcamp/enumerater.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/udemy_bootcamp/sat_3_built_in_functions.py" beforeDir="false" afterPath="$PROJECT_DIR$/udemy_bootcamp/sat_3_built_in_functions.py" afterDir="false" />
     </list>
     <ignored path="pythonVeneno.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -79,22 +80,22 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="1071" />
+          <entry key="py" value="1100" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Python" value="1071" />
+          <entry key="Python" value="1100" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="py" value="2" />
+          <entry key="py" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Python" value="2" />
+          <entry key="Python" value="3" />
         </counts>
       </usages-collector>
     </session>
@@ -104,35 +105,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/python_challenge/ch_1_string.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="346">
-              <caret line="37" selection-start-line="37" selection-end-line="37" />
-              <folding>
-                <marker date="1535540696621" expanded="true" signature="339:346" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/udemy_bootcamp/enumerater.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
+            <state relative-caret-position="281">
               <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/udemy_bootcamp/allandany.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="295">
-              <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
-              <folding>
-                <marker date="1535546098905" expanded="true" signature="313:320" ph="..." />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -202,8 +179,8 @@
         <option value="$PROJECT_DIR$/udemy_bootcamp/tuples.py" />
         <option value="$PROJECT_DIR$/udemy_bootcamp/sat_oop.py" />
         <option value="$PROJECT_DIR$/python_challenge/ch_1_string.py" />
-        <option value="$PROJECT_DIR$/udemy_bootcamp/enumerater.py" />
         <option value="$PROJECT_DIR$/udemy_bootcamp/allandany.py" />
+        <option value="$PROJECT_DIR$/udemy_bootcamp/enumerater.py" />
       </list>
     </option>
   </component>
@@ -273,7 +250,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.allandany">
+  <component name="RunManager" selected="Python.enumerater">
     <configuration default="true" type="tests" factoryName="Attests">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -513,8 +490,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.allandany" />
         <item itemvalue="Python.enumerater" />
+        <item itemvalue="Python.allandany" />
         <item itemvalue="Python.ch_1_string" />
         <item itemvalue="Python.sat_oop" />
         <item itemvalue="Python.ex18" />
@@ -902,7 +879,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.39871383" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.33594978" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5030257" side_tool="true" weight="0.30267063" />
-      <window_info anchor="bottom" id="Version Control" order="8" weight="0.30860534" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.30769232" />
       <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.4969743" weight="0.30153847" />
       <window_info anchor="bottom" id="Python Console" order="10" weight="0.21779141" />
       <window_info anchor="bottom" id="Concurrent Activities Diagram" order="11" weight="0.3297546" />
@@ -1240,6 +1217,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/udemy_bootcamp/allandany.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="295">
+          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/python_challenge/ch_1_string.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="346">
@@ -1252,18 +1236,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/udemy_bootcamp/enumerater.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
+        <state relative-caret-position="281">
           <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/udemy_bootcamp/allandany.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="295">
-          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
-          <folding>
-            <marker date="1535546098905" expanded="true" signature="313:320" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>

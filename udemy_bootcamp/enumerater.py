@@ -2,8 +2,10 @@
 
 l = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z']
 
+print(type(enumerate(l)))
+
 for count, obj in enumerate(l):
-    print (count, obj)
+    print(count, obj)
 
 # other uses of enum
 
@@ -20,5 +22,3 @@ for count, obj in enumerate(l):
 #     x += ("'" + i + "', ")
 #
 # print(x)
-
-
