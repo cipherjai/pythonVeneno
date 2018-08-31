@@ -6,8 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="6fb6f548-10dd-4453-b623-ffce22be66aa" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/udemy_bootcamp/enumerater.py" beforeDir="false" afterPath="$PROJECT_DIR$/udemy_bootcamp/enumerater.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/udemy_bootcamp/sat_3_built_in_functions.py" beforeDir="false" afterPath="$PROJECT_DIR$/udemy_bootcamp/sat_3_built_in_functions.py" afterDir="false" />
     </list>
     <ignored path="pythonVeneno.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -108,7 +106,7 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/udemy_bootcamp/enumerater.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="281">
+            <state relative-caret-position="290">
               <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
             </state>
           </provider>
@@ -190,8 +188,8 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-1374" />
     <option name="y" value="-8" />
     <option name="width" value="1382" />
     <option name="height" value="784" />
@@ -865,7 +863,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="784" extended-state="0" />
+    <frame x="-1374" y="-8" width="1382" height="784" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24255952" />
@@ -873,15 +871,15 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.31538463" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.31538463" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4072327" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.39871383" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.33594978" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5030257" side_tool="true" weight="0.30267063" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.30769232" />
-      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.4969743" weight="0.30153847" />
-      <window_info anchor="bottom" id="Python Console" order="10" weight="0.21779141" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" sideWeight="0.4969743" visible="true" weight="0.30153847" />
+      <window_info anchor="bottom" id="Python Console" order="10" weight="0.21692307" />
       <window_info anchor="bottom" id="Concurrent Activities Diagram" order="11" weight="0.3297546" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -1236,7 +1234,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/udemy_bootcamp/enumerater.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="281">
+        <state relative-caret-position="290">
           <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
         </state>
       </provider>
