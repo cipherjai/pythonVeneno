@@ -10,7 +10,6 @@ T1 = (('13', '17', '18', '21', '32'),
 T2 = [[13, 17, 18, 21, 32], [7, 11, 13, 14, 28], [1, 5, 6, 8, 15, 16]]
 # I tried to achieve it with eval but didn't get any decent result yet.
 
-
 # accepted
 # int() is the Python standard built-in function to convert a string into an integer value. You call it with a string containing a number as the argument, and it returns the number converted to an integer:
 

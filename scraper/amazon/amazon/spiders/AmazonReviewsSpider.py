@@ -1,7 +1,6 @@
 # -*- coding: utf-8 -*-
 import scrapy
 
-
 class AmazonReviewsSpider(scrapy.Spider):
     name = 'AmazonReviews'
     allowed_domains = ['amazon.com']
