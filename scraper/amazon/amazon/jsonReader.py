@@ -15,4 +15,4 @@ import json
 with open("revw.json", encoding="utf-8-sig") as json_file:
     text = json_file.read()
     data = json.loads(text)
-    print(List(type(data)))
+    print(list(data))
