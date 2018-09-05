@@ -15,4 +15,8 @@ import json
 with open("revw.json", encoding="utf-8-sig") as json_file:
     text = json_file.read()
     data = json.loads(text)
+<<<<<<< HEAD
     print(list(type(data)))
+=======
+    print(list(data))
+>>>>>>> 6eed4bca107f9b99b4e304d13d3fdbd0e91f71e2
