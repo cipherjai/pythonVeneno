@@ -17,6 +17,7 @@ class AmazonReviewsSpider(scrapy.Spider):
         Revw_content = response.xpath('//span[contains(@data-hook, "review-body")]/text()').extract()
         Revw_helpful = response.xpath('//span[contains(@data-hook, "helpful-vote-statement")]/text()').extract()
 
+
         yield {
             'prod_name' : prod_name,
             'prod_price' : prod_price,
