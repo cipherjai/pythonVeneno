@@ -4,3 +4,4 @@
 .gitignore.
 *.pyo
 *~
+*.cpython-36.pyc
