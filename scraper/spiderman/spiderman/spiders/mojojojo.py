@@ -11,10 +11,9 @@ class MojojojoSpider(scrapy.Spider):
     # sketch the dictionary inside tis method to fetch the data in the yield
     def parse(self, response):
         print("-----------------------------------------------------------------------")
-        products = response.xpath('//span[contains(@class, "list_item")]').extract()
         print(products)
         print("_________________________________________________________________________")
-        for product_item in products:
+        for product_item in response.xpath('//span[contains(@class, "a-list-item")]').extract():
             item = {
                 'product_name':product_item.xpath('//span[contains(@class, "zg-text-center-align")]/text()').extract(),
                 'product_sale_price': product_item.xpath('//span[contains(@class, "p13n-sc-price")]/text()').extract_first(),
