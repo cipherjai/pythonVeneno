@@ -5,7 +5,7 @@ import scrapy
 class AmazonproductcrawlerSpider(scrapy.Spider):
     name = 'AmazonProductCrawler'
     allowed_domains = ['amazon.com']
-    start_urls = ['https://www.amazon.com/TCL-32S305-32-Inch-Smart-Model/product-reviews/B01MU1GBLL/ref=cm_cr_arp_d_viewopt_srt?ie=UTF8&reviewerType=all_reviews&pageNumber={}&sortBy=recent'.format(i) for i in range(1,11)]
+    start_urls = ['https://www.amazon.com/TCL-32S305-32-Inch-Smart-Model/product-reviews/B01MU1GBLL/ref=cm_cr_arp_d_paging_btm_2?ie=UTF8&reviewerType=all_reviews&pageNumber={}'.format(i) for i in range(1,11)]
 
     def parse(self, response):
         for revw in response.xpath('//div[contains(@data-hook,"review")]'):
