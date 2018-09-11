@@ -24,15 +24,14 @@ class ProdwithrevwSpider(scrapy.Spider):
             'Type/Size': response.xpath('normalize-space(//span[contains(@class, "selection")]/text())').extract_first(),
             'Avg_rating': response.xpath('//i[contains(@data-hook,"average-star-rating")]/span[contains(@class, "a-icon-alt")]/text()').extract_first(),
             'Total_rating_no': response.xpath('//span[contains(@data-hook, "total-review-count")]/text()').extract_first(),
-            }
-        revw_link = response.xpath('(//a[contains(@data-hook, "see-all-reviews-link-foot")]/@href)').extract()
+        }
+        for revw_link in response.xpath('(//a[contains(@data-hook, "see-all-reviews-link-foot")]/@href)').extract_first()[:10]:
 
-        yield scrapy.Request(
+            yield scrapy.Request(
             response.urljoin(revw_link),
             dont_filter=True,
             meta = {'item' : item },
-            callback= self.revw_details
-            )
+            callback= self.revw_details)
 
 
     def revw_details(self, response):
@@ -48,5 +47,5 @@ class ProdwithrevwSpider(scrapy.Spider):
                 'content':revw.xpath('.//span[contains(@data-hook, "review-body")]/text()').extract_first(),
                 'verification':revw.xpath('.//span[contains(@data-hook, "avp-badge")]/text()').extract_first(),
                 'product_type':revw.xpath('.//span[contains(@data-hook, "cr-widget-AsinVariation")]/text()').extract_first(),
-                }
+            }
             yield item

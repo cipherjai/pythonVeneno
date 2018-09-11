@@ -19,5 +19,4 @@ class AmazonproductcrawlerSpider(scrapy.Spider):
                 'content':revw.xpath('.//span[contains(@data-hook, "review-body")]/text()').extract(),
                 'verification':revw.xpath('.//span[contains(@data-hook, "avp-badge")]/text()').extract(),
                 'product_type':revw.xpath('.//span[contains(@data-hook, "cr-widget-AsinVariation")]/text()').extract()
-                }
-
+            }
