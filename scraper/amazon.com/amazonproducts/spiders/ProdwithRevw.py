@@ -24,15 +24,16 @@ class ProdwithrevwSpider(scrapy.Spider):
             'Avg_rating': response.xpath('//i[contains(@data-hook,"average-star-rating")]/span[contains(@class, "a-icon-alt")]/text()').extract_first(),
             'Total_rating_no': response.xpath('//span[contains(@data-hook, "total-review-count")]/text()').extract_first(),
         }
-        revw_link = response.xpath('(//a[contains(@data-hook, "see-all-reviews-link-foot")]/@href)').extract()
+        revw_link = response.xpath('(//a[contains(@data-hook, "see-all-reviews-link-foot")]/@href)').extract_first()
         for page_number in range(2, 4):
             link= (revw_link + '&pageNumber={}'.format(page_number))
 
             yield scrapy.Request(
-            response.urljoin(link),
-            dont_filter=True,
-            meta = {'item' : item },
-            callback= self.revw_details)
+                response.urljoin(link),
+                dont_filter=True,
+                meta = {'item' : item },
+                callback= self.revw_details
+            )
 
 
     def revw_details(self, response):
