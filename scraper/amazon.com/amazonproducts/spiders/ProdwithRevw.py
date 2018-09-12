@@ -25,7 +25,7 @@ class ProdwithrevwSpider(scrapy.Spider):
             'Total_rating_no': response.xpath('//span[contains(@data-hook, "total-review-count")]/text()').extract_first(),
         }
         revw_link = response.xpath('(//a[contains(@data-hook, "see-all-reviews-link-foot")]/@href)').extract_first()
-        for page_number in range(2, 4):
+        for page_number in range(4, 11):
             link= (revw_link + '&pageNumber={}'.format(page_number))
 
             yield scrapy.Request(
