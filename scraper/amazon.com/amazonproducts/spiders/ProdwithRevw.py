@@ -16,7 +16,6 @@ class ProdwithrevwSpider(scrapy.Spider):
             url = response.urljoin(url)
             yield scrapy.Request(url=url, callback=self.prod_details)
 
-
     def prod_details(self, response):
         item = {
             'Product': response.xpath('normalize-space(//h1[contains(@id,"title")]/span/text())').extract_first(),
@@ -25,10 +24,12 @@ class ProdwithrevwSpider(scrapy.Spider):
             'Avg_rating': response.xpath('//i[contains(@data-hook,"average-star-rating")]/span[contains(@class, "a-icon-alt")]/text()').extract_first(),
             'Total_rating_no': response.xpath('//span[contains(@data-hook, "total-review-count")]/text()').extract_first(),
         }
-        for revw_link in response.xpath('(//a[contains(@data-hook, "see-all-reviews-link-foot")]/@href)').extract_first()[:10]:
+        revw_link = response.xpath('(//a[contains(@data-hook, "see-all-reviews-link-foot")]/@href)').extract()
+        for page_number in range(2, 4):
+            link= (revw_link + '&pageNumber={}'.format(page_number))
 
             yield scrapy.Request(
-            response.urljoin(revw_link),
+            response.urljoin(link),
             dont_filter=True,
             meta = {'item' : item },
             callback= self.revw_details)
